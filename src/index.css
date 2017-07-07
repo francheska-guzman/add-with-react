@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Cardo|Gloria+Hallelujah');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #141414;
+}
+
+h1 {
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 40px;
+	text-align: center;
+}
+
+h3 {
+	display: inline-block;
+	width: 250px;
+	margin: 20px;
+	border: none;
+	font-size: 40px;
+	font-family: 'Cardo', serif;
+}
+
+#n1, #n2 {
+	width: 150px;
+	height: 100px;
+	margin: 10px;
+	border: none;
+	border-bottom: 1px solid;
+	font-size: 40px;
+	font-family: 'Cardo', serif;
+	text-align: center;
+}
+
+#sum {
+	font-size: 30px;
+	color: #0a6d25;
+	font-family: 'Cardo', serif;
+}
+
+#equal {
+	width: 80px;
+	height: 80px;
+	margin: 10px;
+	border: none;
+	padding: 20px;
+	font-size: 30px;
+	background-color: #820303;
+	color: #FFFFFF;
+	font-family: 'Cardo', serif;
+}
+
+#equal:hover {
+	background-color: #AA0606;
+}
+
+#reset {
+	width: 120px;
+	height: 80px;
+	border: none;
+	padding: 20px;
+	font-size: 20px;
+	background-color: #093187;
+	color: #FFFFFF;
+	font-family: 'Cardo', serif;
+}
+
+#reset:hover {
+	background-color: #2159d1;
+}
+
+.container {
+	text-align: center;
+	background-color: #FFFFFF;
+	margin: 18% 0 0 0;
+}
+
+@media only screen and (max-width: 900px) {
+	#num1, #num2, #sum, #equal, #reset {
+		display: block;
+		width: 100%;
+		margin: 0;
+	}
+}
